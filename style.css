@@ -1,0 +1,156 @@
+@keyframes  slide {
+    0% {
+      left: 0;
+      top: 0;
+    }
+    5% {
+      left: 200px;
+      top: 20px;
+    }
+    10% {
+      left: 100px;
+      top: 40px;
+    }
+    15%{
+        left: 400px;
+        top: 200px;
+
+    }
+    20%{
+        height: 100px;
+        width: 100px;
+        left: 500px;
+        top: 10px;
+    }
+    24%{
+        top: 250px;
+        left: 200;
+    }
+    25%{
+        height: 0px;
+        width: 0px;
+        left: 100%;
+
+    }
+    /***************/
+    30% {
+        left: 0;
+        top: 0;
+      }
+      35% {
+        left: 200px;
+        top: 20px;
+      }
+      40% {
+        left: 100px;
+        top: 40px;
+      }
+      45%{
+          left: 400px;
+          top: 200px;
+  
+      }
+      50%{
+          height: 100px;
+          width: 100px;
+          left: 500px;
+          top: 10px;
+  
+      }
+      55%{
+          height: 0px;
+          width: 0px;
+          left: 100%;
+  
+      }
+      /*******************************/
+      60% {
+        left: 0;
+        top: 0;
+      }
+      65% {
+        left: 200px;
+        top: 20px;
+      }
+      70% {
+        left: 100px;
+        top: 40px;
+      }
+      75%{
+          left: 400px;
+          top: 200px;
+  
+      }
+      80%{
+          height: 100px;
+          width: 100px;
+          left: 500px;
+          top: 10px;
+  
+      }
+      85%{
+          height: 0px;
+          width: 0px;
+          left: 100%;
+  
+      }
+      /***********************************************/
+      90% {
+        left: 0;
+        top: 0;
+      }
+      95% {
+        left: 200px;
+        top: 20px;
+      }
+      100%{
+          height: 0px;
+          width: 0px;
+          left: 100%;
+  
+      }
+  }
+  .stage {
+    background: #eaeaed;
+    border-radius: 6px;
+    height: 300px;
+    position: relative;
+    min-width: 538px;
+  }
+  .stage:hover .ball {
+    animation: slide 10s linear;
+  }
+  .ball:hover{
+      background-color: red;
+  }
+  .ball {
+    background: #2db34a;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+  }
+  /****************************************/
+.animatdImg{
+    margin-left: 10px;
+}
+#divImgs{
+    background-color: red;
+    /* position: relative; */
+    height: 600px;
+}
+#img1:active{
+position: absolute;
+animation: my404 10s linear
+}
+@keyframes my404{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 150px;
+    }
+    100%{
+        top: 300px;
+    }
+}
